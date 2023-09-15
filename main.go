@@ -1,9 +1,8 @@
 package main
 
 import (
-	"net/http"
-
 	"github.com/gin-gonic/gin"
+	"github.com/raihan2bd/jwt-authentication-golang/controllers"
 	"github.com/raihan2bd/jwt-authentication-golang/initializers"
 )
 
@@ -15,11 +14,7 @@ func init() {
 
 func main() {
 	router := gin.Default()
-	router.GET("/ping", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{
-			"message": "pong",
-		})
-	})
+	router.POST("/signup", controllers.Signup)
 
 	router.Run()
 }
