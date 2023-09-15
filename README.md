@@ -13,10 +13,9 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Database](#database)
     - [Usage](#usage)
     - [Build](#build)
-  - [👥 Authors ](#-authors-)
+  - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -24,7 +23,9 @@
   - [📝 License ](#-license-)
 
 
-# Jwt Authentication with Golang and Gorm <a name="about-project"></a>
+# Jwt Authentication with Golang and Gorm
+A Go-based web application using PostgreSQL for data storage, GORM for database interaction, and Gin for routing. It offers user registration, login, and authentication with JWT tokens for secure access to protected routes.
+<a name="about-project"></a>
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -34,6 +35,7 @@
   <ul>
     <li>Golang</li>
     <li>PostgreSQL</li>
+    <li>Gin</li>
     <li>Gorm</li>
   </ul>
 </details>
